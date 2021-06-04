@@ -1,0 +1,6 @@
+﻿  misc.cpp
+  hooks.cpp
+  Generating Code...
+     Creating library .\output\debug\csgo-cheat.lib and object .\output\debug\csgo-cheat.exp
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  csgo-cheat.vcxproj -> C:\Users\djmwr\Desktop\Hacks\DogeSense Menu Rework\output\debug\csgo-cheat.dll
