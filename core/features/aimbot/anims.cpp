@@ -41,9 +41,6 @@ void animations::animation_fix(int stage) {
 		if (interfaces::clientstate->delta_tick != -1 && !interfaces::input->m_fCameraInThirdPerson)
 			csgo::local_player->animations(true);
 	}
-
-	if (interfaces::engine->is_in_game() && interfaces::engine->is_connected() && stage == FRAME_RENDER_START && csgo::cmd && csgo::local_player != nullptr && csgo::local_player->is_alive()) {
-	}
 }
 
 fake_state_t fake_state;
